@@ -1,0 +1,192 @@
+/*Font import*/
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Marck+Script&family=Prata&family=Raleway:wght@100&display=swap');
+
+
+
+
+
+/*Page setup*/
+
+html{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter';
+}
+
+header, footer{
+  background-color: #78c0e0;
+  height: 5%;
+  margin: none;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer{
+  margin-top: 20px;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  width: 100%
+}
+
+/*Page text*/
+h1{
+  font-family: 'Prata';
+  font-size: 28px;
+}
+
+h2{
+    border-bottom: 2px solid #78C0e0;
+    width: 50%;
+    font-family: 'Prata';
+    font-size: 24px;
+}
+
+h3{
+    font-family: 'Marck Script';
+    font-size: 18px;
+}
+
+/*Sidebar */
+.sidebar-nav{
+  margin-top: 20px;
+  width: 20%;
+  background-color: #F4F4F4;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+.sidebar-nav li{
+  height: 50px;
+  width: 100%;
+  border-bottom: 2px solid #78C0e0;
+  list-style: none;
+  display: flex;
+}
+
+.sidebar-nav a{
+  width: 100%;
+  height: 100%;
+  color: black;
+  text-decoration: none; 
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+
+.sidebar-nav li a:hover{
+  color: white;
+  background-color: #78c0e0;
+}
+
+/*Page content layout*/
+main{
+  width: 75%;
+}
+
+.content-section{
+  width: 100%;
+  background-color: #F4F4F4;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/*Colour section*/
+.colour-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.colour-container{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+}
+.box{
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  color: white;
+}
+
+#colour-1{
+  background-color: #78c0e0;
+  padding: 5px;
+}
+
+#colour-2{
+  background-color: #449DD1;
+  padding: 5px;
+}
+
+#colour-3{
+  background-color: #192BC2;
+  padding: 5px;
+}
+
+#colour-4{
+  background-color: #150578;
+  padding: 5px;
+}
+
+/*font section*/
+.font-display{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 2px solid #78C0e0;
+}
+.display-left{
+  margin-right: 100px;
+  width: 50%;
+}
+.prata{
+font-family: 'Prata', serif;
+
+}
+.raleway{
+font-family: 'Raleway', sans-serif;
+}
+.marck-script{
+  font-family: 'Marck Script', cursive;
+}
+
+.component-container{
+  display: flex; 
+  flex-direction: row;
+}
+#components .display-left{
+  width: 25%;
+}
+
+button{
+  width: 150px;
+  height: 50px;
+  outline: none;
+  font-family: 'Marck Script';
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.main-btn{
+  background-color: #78C0e0;
+}
+
+.second-btn{
+  background-color: #150578;
+}
+
+.outline-btn{
+  background-color: transparent;
+  border: 2px solid #78C0e0;
+  color: #78C0e0;
+
+}
+
